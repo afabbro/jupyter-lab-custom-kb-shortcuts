@@ -1,0 +1,29 @@
+{
+  "shortcuts": [
+      {
+          "command": "notebook:run-all-above",
+          "keys": [
+              "Accel ArrowUp"
+          ],
+          "selector": ".jp-Notebook.jp-mod-editMode",
+          "title": "Run All Above Current Cell",
+          "category": "Notebook Cell Operations"
+      },
+      {
+          "command": "notebook:run-all-below",
+          "keys": [
+              "Accel ArrowDown"
+          ],
+          "selector": ".jp-Notebook.jp-mod-editMode",
+          "title": "Run All Below Current Cell",
+          "category": "Notebook Cell Operations"
+      },
+      {
+          "command": "runmenu:restart-and-run-all",
+          "keys": [
+              "Accel R"
+          ],
+          "selector": "[data-jp-code-runner]",
+      },
+  ]
+}
